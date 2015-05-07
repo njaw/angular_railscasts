@@ -1,0 +1,15 @@
+== Railscast Ruby-Angular App
+
+This simple SPA pulls all the Railscasts video into one single page for viewing.
+Built on Ruby and AngularJS.
+
+=== Getting Started
+
+Run the following commands:
+1. <tt>bundle install</tt>
+2. <tt>rake db:migrate; rake db:migrate RAILS_ENV=test</tt>
+3. <tt>rake test</tt>
+4. <tt>rake screencast_sync:railscasts</tt>
+
+
+Credits: Eric Berry
